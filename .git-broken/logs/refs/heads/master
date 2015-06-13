@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 2bb6e7f56e946f4869d7ead8184a809c14eec035 Sohier Christie <sohier@scsquared.ca> 1386269783 -0400	commit (initial): initial commit
+2bb6e7f56e946f4869d7ead8184a809c14eec035 85dec2530dea494c7324488637c026f0915bbeca Sohier Christie <sohier@scsquared.ca> 1386553941 -0400	commit: fixed some color profiles in craftsmanship, finished up a few non-dynamic pages and fixed craftsmanship footer
+85dec2530dea494c7324488637c026f0915bbeca 19c48abdc25ee4f6bd74e3953a52aee7dc96139d Sohier Christie <sohier@scsquared.ca> 1386554791 -0400	commit: a few minor changes
+19c48abdc25ee4f6bd74e3953a52aee7dc96139d 1818c3387ac7f6955ebdc7565b479ec93bf7acc7 Sohier Christie <sohier@scsquared.ca> 1386816898 -0400	commit: almost done
+1818c3387ac7f6955ebdc7565b479ec93bf7acc7 2f8130a5eaec4f14242877c2fc57f7f141d0f132 Sohier Christie <sohier@scsquared.ca> 1388413492 -0400	commit: updates
+2f8130a5eaec4f14242877c2fc57f7f141d0f132 539a32fb3938c32d8aec6247e2760ba1bf2e307d Sohier Christie <sohier@scsquared.ca> 1388881661 -0400	commit: added pdf of prices
+539a32fb3938c32d8aec6247e2760ba1bf2e307d a6f98f6242d44004a7eacfa498a1353b0f31b4f9 Sohier Christie <sohier@scsquared.ca> 1388882903 -0400	commit: added in old bootstrap file, not really needed, you have the old one
+a6f98f6242d44004a7eacfa498a1353b0f31b4f9 55479972908df9ed743b8fc80d6f56ea9e66ca08 Sohier Christie <sohier@scsquared.ca> 1394910023 -0300	commit: updated order page with new Irish Flute Store owner info
+55479972908df9ed743b8fc80d6f56ea9e66ca08 e0ba35727876e1c2dc6898cb8d4417bae271e5f4 Sohier Christie <sohier@scsquared.ca> 1401142611 -0300	commit: fixed contact, added alerts
+e0ba35727876e1c2dc6898cb8d4417bae271e5f4 b37a36dcd1aac983a8f949c6d1c4dc18e2cc6630 Sohier Christie <sohier@scsquared.ca> 1403370360 -0300	commit: commented out contact form, and added table support to css
+b37a36dcd1aac983a8f949c6d1c4dc18e2cc6630 4391d8236a9f39db3fe342a6ee94a6d9c3d0ec33 Sohier Christie <sohier@scsquared.ca> 1403370395 -0300	commit: compressed css
+4391d8236a9f39db3fe342a6ee94a6d9c3d0ec33 f0374355f7ab8068863a431937a93d29f9bf366f Sohier Christie <sohier@scsquared.ca> 1410134792 -0300	commit: Replaced paragraph in Pratten.html
+f0374355f7ab8068863a431937a93d29f9bf366f f18c241d76021c4137b1bd69a7d2d956c9c4c10b Sohier Christie <sohier@scsquared.ca> 1413671956 -0300	commit: repaired layout of craftsmanship
+f18c241d76021c4137b1bd69a7d2d956c9c4c10b 840d7af55c5a820f17d8ea3145b9791951ee8d80 Sohier Christie <sohier@scsquared.ca> 1413676583 -0300	commit: updated pricelist, added new option and updated events and links
+840d7af55c5a820f17d8ea3145b9791951ee8d80 9ffddecc390529cd580a209eff0726bbf21922b9 Sohier Christie <sohier@scsquared.ca> 1422494600 -0400	commit: removed store links from nav bar, working progressing on flute list page.
+9ffddecc390529cd580a209eff0726bbf21922b9 fbc0542db788044faa5642cab4bb11032eb83bd0 Sohier Christie <sohier@scsquared.ca> 1423017158 -0400	commit: added flutelist.html and updated navbar, removed links to store, added new photos
+fbc0542db788044faa5642cab4bb11032eb83bd0 db5cb80db302eddeffd572bc9f84869695c7595d Sohier Christie <sohier@scsquared.ca> 1426429224 -0300	commit: updated FAQ and Flute care and Craftsmanship pages

@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "dropbox"]
+	url = /home/soy/Dropbox/git/windward.git/
+	fetch = +refs/heads/*:refs/remotes/dropbox/*
+[branch "master"]
+	remote = dropbox
+	merge = refs/heads/master

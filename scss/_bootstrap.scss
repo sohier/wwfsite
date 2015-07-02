@@ -3297,7 +3297,7 @@ a.thumbnail:focus {
   display: block;
 }
 .dropdown-backdrop {
-  position: fixed;
+  position: static;
   left: 0;
   right: 0;
   bottom: 0;

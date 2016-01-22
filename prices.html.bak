@@ -15,13 +15,6 @@
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="../assets/ico/favicon.png">
-    <script src="http://coinmill.com/frame.js"></script>
-    <script>
-    var currency_round=true;
-    var currency_decimalSeparator='.';
-    var currency_thousandsSeparator=',';
-    var currency_thousandsSeparatorMin=3;
-    </script>
     <script type="text/javascript">
   var ShopifyStoreConfig = {shop:"windward-flutes.myshopify.com", collections:[30612799]};
   (function() {
@@ -134,6 +127,8 @@
       </div>
     </div>
 
+
+
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="span10 offset1">
@@ -141,7 +136,6 @@
     <div class="row-subheader visible-print"><h2>Prices and Terms<h2></div>
     <div class="page-header hidden-print"><h2>Prices and Terms</h2></div>
     <p class="lead2 row-subheader">You may order a flute to your exact specifications or ask us about flutes we have in our inventory. </p><br>
-    <p class="lead2 row-subheader">All prices are in Canadian Dollars, an estimated exchange rate is displayed, actual exchange rate is determined at time of payment.</p><br>
     <p class="lead2 row-subheader"> Please <a href="flutelist.html">view our available flutes</a>, or <a href="contact.html"> contact us</a> for flute availability.</p>
 
   </div>
@@ -173,14 +167,14 @@
 		<tr>
 		  <td><strong>Keyless Pratten Flute</strong> in D or in E<em>b</em>, with contrasting wood rings</td>
 		  <td></td>
-		  <td class="text-right"><strong>$1700 </strong><small>(CAD)</small><strong> = $<script>currency_show_conversion(1700.00,"CAD","USD");</script></strong><small>(USD)</small><br></td>
+		  <td class="text-right"><strong>$1700</strong></td>
 		</tr>
 	      </thead>
 	      <tbody>
 		<tr>
 		  <td><strong>Keyless Pratten Flute</strong> in D or in E<em>b</em> with sterling silver rings</td>
 		  <td></td>
-		  <td class="text-right"><strong>$1850</strong><small>(CAD) </small><strong>= $<script>currency_show_conversion(1850.00,"CAD","USD");</script> </strong><small>(USD)</small></td>
+		  <td class="text-right"><strong>$1850</strong></td>
 		</tr>
 	      </tbody>
 	    </table>
@@ -190,14 +184,14 @@
 		<tr>
 		  <td><strong>Keyless Windward Combo</strong> in E<em>b</em>/D with wood rings</td>
 		  <td></td>
-		  <td class="text-right"><strong>$2175 </strong><small>(CAD)</small><strong> = $<script>currency_show_conversion(2175.00,"CAD","USD");</script> </strong><small>(USD)</small></td>
+		  <td class="text-right"><strong>$2175</strong></td>
 		</tr>
 	      </thead>
 	      <tbody>
 		<tr>
 		  <td><strong>Keyless Windward Combo</strong> in E<em>b</em>/D with sterling silver rings</td>
 		  <td></td>
-		  <td class="text-right"><strong>$2375 </strong><small>(CAD) </small><strong>= $<script>currency_show_conversion(2375.00,"CAD","USD");</script> </strong><small>(USD)</small></td>
+		  <td class="text-right"><strong>$2375</strong></td>
 		</tr>
 	      </tbody>
 	    </table>
@@ -207,14 +201,14 @@
 		<tr>
 		  <td><strong>Keyless Windward C Flute</strong> with wood or faux ivory rings</td>
 		  <td></td>
-		  <td class="text-right"><strong>$1875</strong><small> (CAD)</small><strong> = $<script>currency_show_conversion(1875.00,"CAD","USD");</script></strong><small> (USD)</small></td>
+		  <td class="text-right"><strong>$1875</strong></td>
 		</tr>
 	      </thead>
 	      <tbody>
 		<tr>
 		  <td><strong>Keyless Windward C Flute</strong> with sterling silver rings</td>
 		  <td></td>
-		  <td class="text-right"><strong>$2025</strong><small> (CAD)</small> = <strong>$<script>currency_show_conversion(2025.00,"CAD","USD");</script></strong><small> (USD)</small></td>
+		  <td class="text-right"><strong>$2025</strong></td>
 		</tr>
 	      </tbody>
 	    </table>
@@ -224,19 +218,19 @@
 		<tr>
 		  <td><strong>Keyed Pratten with 6 keys</strong> in D or E<em>b</em>, with sterling silver rings<br><em>(with Long C, Bb, G#, Long F, short F and Eb keys)</em></td>
 		  <td></td>
-		  <td class="text-right"><strong>$4345 </strong><small>(CAD)</small> <strong> = $<script>currency_show_conversion(4345.00,"CAD","USD");</script></strong> <small>(USD)</small></td>
+		  <td class="text-right"><strong>$4345</strong></td>
 		</tr>
 	      </thead>
 	      <tbody>
 		<tr>
 		  <td><strong>Keyed Pratten with 8 keys</strong> in D or E<em>b</em>, with sterling silver rings<br><em>(Long C, Bb, G#, Long F, short F, Eb, C# and C keys)</em></td>
 		  <td></td>
-		  <td class="text-right"><strong>$5812 </strong><small>(CAD)</small> = <strong>$<script>currency_show_conversion(5812.00,"CAD","USD");</script></strong> <small>(USD)</small></td>
+		  <td class="text-right"><strong>$5812</strong></td>
 		</tr>
 		<tr>
 		  <td><strong>Keyed Combo with 7 keys</strong> in E<em>b</em>/D, with sterling silver rings<br><em>(Long C, Bb, G#, Long F, short F and an Eb key on each foot)</em></td>
 		  <td></td>
-		  <td class="text-right"><strong>$4945</strong></strong><small>(CAD)</small> <strong> =$<script>currency_show_conversion(4945.00,"CAD","USD");</script></strong> <small>(USD)</small></td>
+		  <td class="text-right"><strong>$4945</strong></td>
 		</tr>
 	      </tbody>
 	    </table>
@@ -461,7 +455,6 @@
  </div>
     <div class="row-fluid"><br>
       <p class="text-center hidden-print"><a href="prices.pdf">Download a PDF of this pricelist</a></p>
-      <p class="text-center"><small>Currency data courtesy <a href="http://coinmill.com/">coinmill.com</a></small></p>
     </div>
 <!-- Footer -->
   <footer>
@@ -543,14 +536,6 @@
 
 
 <!-- Scripts -->
-
-    <script src="http://coinmill.com/frame.js"></script>
-    <script>
-    var currency_round=true;
-    var currency_decimalSeparator='.';
-    var currency_thousandsSeparator=',';
-    var currency_thousandsSeparatorMin=3;
-    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/min/bootstrap.min.js"></script>
     <script src="js/min/responsiveslides.min.js"></script>

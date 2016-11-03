@@ -1,0 +1,1007 @@
+		
+
+
+
+
+
+
+
+		*{
+			
+
+
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+			
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			
+		}
+
+		html {
+
+			margin: 0px;
+		 	padding: 0px;
+			height: 100%;
+		 	width: 100%;
+		 	
+
+		 	background-color: white;
+		 	
+		 	
+		 	
+		 }
+
+		.playerClass
+		{
+			position: fixed;
+			background-color: white;
+			display:none;
+			visibility: hidden;
+			width: 800px;
+			height: 400px;
+			
+		}
+
+		.vidskrim
+		{
+			background-color: white;
+			position: fixed;
+			
+			
+			width: 800px;
+			z-index: =-1001;
+
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+       		filter: alpha(opacity=90);
+       		opacity:.9;
+
+		}
+
+		.playa 
+		{
+			z-index: = 999;
+			position: fixed;
+			
+
+
+
+		}
+
+		
+		
+		body {
+			
+			
+			margin: 0px;
+			padding: 0px;
+
+			height: 100%;
+		 	width: 100%;
+
+		 	background-color: white;
+
+			/*
+			height: 100%;
+		 	width: 100%;
+			
+			min-height: 100%;
+			min-width: 100%;
+
+			
+			background-color: white;
+			
+			
+			font-size:12px;
+			-webkit-user-select:none;
+		    -webkit-text-size-adjust:none;
+			font-family:helvetica;
+
+			/* background-image:url('assets/reg/backs.jpg'); */
+			/*background-color: #ffffff;*/
+			/*overflow: hidden;*/
+			/*overflow: hidden;*/
+			
+		}
+
+		
+		
+		
+		
+		.unselectable {  
+			height: 100%;
+		 	width: 100%;
+		 	margin: 0px;
+			padding: 0px;
+			height: 100%;
+		 	width: 100%;
+			overflow: hidden;
+			min-height: 100%;
+			min-width: 100%;
+			background-color: black;
+			overflow: hidden;
+			/*-webkit-touch-callout: none;*/
+			
+
+			
+
+
+		}
+
+		
+
+		/* prevent user selection */
+		img { 
+			/*-webkit-touch-callout: none;*/
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			-webkit-user-select:none; 	
+		 	overflow: hidden;
+		 	display: block;
+
+		 	
+		 }
+	
+		
+		
+		
+		
+
+		
+		/* iPads (landscape) ----------- */
+		@media only screen 
+		and (min-device-width : 768px) 
+		and (max-device-width : 1024px) 
+		and (orientation : landscape) 
+		{
+			/* Styles */
+			
+		}
+
+		/* iPads (portrait) ----------- */
+		@media only screen 
+		and (min-device-width : 768px) 
+		and (max-device-width : 1024px) 
+		and (orientation : portrait) 
+		{
+			/* Styles */
+			
+		}
+		
+		
+		/* div style before load */
+		.incomplete {
+			display: none;
+			opacity: 0;
+			position: absolute;
+			left: 0px;
+			top: -50px;
+			overflow: hidden;
+
+		} 
+
+		
+
+		.completeRight{
+			opacity: 1;
+			position: relative;
+			left: 1700px;
+			top: 20px;
+			display: block;
+			overflow: hidden;
+			cursor: default;
+
+			
+			
+			
+		}
+
+		
+
+		.arrow {
+			position: absolute;
+			display: none;
+			width: 40px;
+			height: 40px;
+			top: 5px;
+
+			background:url(assets/arrow.png);
+			
+		}
+		.error {
+			background-color: #FAA;
+		}
+
+		/*  */
+		.content{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height:20px;
+			overflow: hidden;
+			cursor: default;
+
+
+			
+
+			
+		}
+
+		.backgrounds{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-color: white;
+			overflow: hidden;
+			cursor: default;
+			display: block;
+		}
+
+		
+		
+		.menuShell
+		{
+			position: absolute;
+			
+			
+			height: 50px;
+		 	width: 100%;
+		 	
+		
+			overflow: hidden;
+
+			left: 0px;
+			top: 0px;
+
+
+		}
+
+		.menuBarWhiteBox
+		{
+			position: absolute;
+			
+			
+			height: 50px;
+		 	width: 100%;
+		 	background-color: white;
+		
+			overflow: hidden;
+
+			left: 0px;
+			top: 0px;
+
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+       		filter: alpha(opacity=20);
+       		opacity:.2;
+
+
+		}
+
+
+		.menuBox
+		{
+			
+			position: relative;
+			
+			background-color: #f6f5f2;
+			height: auto;
+		 	
+		    width:100%;
+		 	
+			top: 50px;
+			overflow: hidden;
+			max-width: 1200px;
+
+			margin: 0 auto;
+			
+		}
+		
+		.menuBar
+		{
+			padding:0px 0%;
+			margin:0 0 0 1%;
+			position: relative;
+			
+			
+			height: 60px;
+		 	
+		    width:100%;
+		 	
+			
+			overflow: hidden;
+			max-width: 1200px;
+
+			margin: 0 auto;
+			cursor: pointer; 
+		    cursor: hand;
+			/*top: 0px;*/
+		}
+
+		
+
+		.slideShell
+		{
+			position: absolute;
+			background-color: white;
+			
+			height:auto;
+		 	width: 100%;
+		 	
+		
+			
+
+			left: 0px;
+			top: 0px;
+		}
+		
+		.heroShell 
+		{
+			position: relative;
+			background-color: #e0e0e0;
+			
+			height: 548px;
+		 	width: 100%;
+		 	
+		
+			overflow: hidden;
+
+			
+
+
+			/*top: 0px;*/
+		}
+
+		.heroContainer
+		{
+			position: relative;
+			background-color: #f3eeea;
+			
+			height: 100%;
+			width: 100%;
+		 	min-width: 1024px;
+
+		 	max-width: 1400px;
+		 	overflow: hidden;
+		   
+			margin-right: auto; 
+			margin-left: auto;
+
+			
+
+			
+
+
+		}
+
+		.dotBtnShell
+		{
+			position: relative;
+			
+			
+			height: 30px;
+			width: 0px;
+		 	
+		 	overflow: hidden;
+		    visibility: hidden;
+			margin-right: auto; 
+			margin-left: auto;
+
+			top:-171px;
+
+			
+
+
+		}
+
+		.heroDotBtn
+		{
+
+			position: relative;
+			
+			
+			height: 30px;
+			width: 31px;
+		 	
+		 	overflow: hidden;
+		    float: left;
+			
+		    margin:0 0 0 1px;
+			
+			cursor: pointer;
+			cursor: hand;
+
+			background:url(assets/dot.png);
+		    background-position:0 -31px;
+
+
+		}
+
+		
+
+		
+
+		.heroBar
+		{
+			position: relative;
+			
+			
+			height: 71px;
+		 	width: 100%;
+		 	top:-71px;
+
+		 	background:  url('assets/whiteHeroBarSlant.png') left top ;
+		 	
+		
+			overflow: hidden;
+
+			left: 0px;
+
+		}
+
+		.contentShell
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height: auto;
+		 	width: 100%;
+		 	max-width: 1200px;
+		    min-width: 1024px;
+			
+
+			left: 0px;
+
+			margin: 0 auto;
+			
+			
+		}
+
+		.3col0
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height: 100%;
+		 	width: 100%;
+		 	max-width: 1200px;
+		
+			
+			display: none;
+			left: 0px;
+			
+			/*margin: 0 auto;*/
+
+		}
+		.3col1
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height: 100%;
+		 	width: 100%;
+		 	max-width: 1200px;
+		
+			
+			display: none;
+			
+			left: 0px;
+			
+			
+
+		}
+		.3col2
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height:100%;
+		 	width: 100%;
+		 	max-width: 1200px;
+		
+			
+			display: none;
+			
+			left: 0px;
+			
+			
+
+		}
+
+		.3col3
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height:100%;
+		 	width: 100%;
+		 	max-width: 1200px;
+		
+			
+			display: none;
+			
+			left: 0px;
+			
+			
+
+		}
+
+		.3col4
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height:100%;
+		 	width: 100%;
+		 	max-width: 1200px;
+		
+			
+			display: none;
+			
+			left: 0px;
+			
+			
+
+		}
+
+		.3col5
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height:100%;
+		 	width: 100%;
+		 	max-width: 1200px;
+		
+			
+			display: none;
+			
+			left: 0px;
+			
+			
+
+		}
+
+		.3col6
+		{
+			position: relative;
+			background-color: #FFF;
+			
+			height:100%;
+		 	width: 100%;
+		 	max-width: 1200px;
+		
+			
+			display: none;
+			
+			left: 0px;
+			
+			
+
+		}
+
+		.header
+		{
+			
+			
+			position: relative;
+			
+			
+			height: 55px;
+		 	
+		    width:500px;
+		 	
+			left: 0px;
+
+			overflow: hidden;
+			max-width: 1300px;
+			min-width: 1024px;
+			margin-left:20px;
+			/*top: 0px;*/
+		}
+
+
+		.menuHeader0
+		{
+
+			font-size:22px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:normal;
+			letter-spacing: 0px;
+			margin-left:0px;
+			margin-right:40px;
+			margin-top:50px;
+			line-height: 6px;
+
+
+		}
+
+		.menuTextItem
+		{
+			position: relative;
+			font-size:15px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:normal;
+			letter-spacing: 0px;
+			margin-left:0px;
+			margin-right:40px;
+			margin-top:0px;
+			line-height: 8px;
+			top: 2px;
+			background-color: #f6f5f2;
+
+			cursor: pointer; 
+		    cursor: hand;
+		    height: 23px;
+
+		}
+
+
+		
+
+		.menuDiv
+		{
+
+			
+			margin-left:6px;
+			margin-top:70px;
+			top: 0px;
+			
+			height: 100%;
+			width: 98%;
+
+		}
+
+		h1 
+		{
+			font-size:30px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:normal;
+			letter-spacing: 1px;
+		}
+
+		.logo 
+		{
+			font-size:22px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			
+			font-weight:lighter;
+			letter-spacing: 0px;
+			margin-top:12px;
+			margin-left:28px;
+			overflow: hidden;
+			width: 100&;
+		}
+
+		.p1
+		{
+			font-size:21px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:lighter;
+			letter-spacing: 0px;
+			margin-left:20px;
+			margin-right:40px;
+			margin-top:-2px;
+			line-height: 31px;
+		}
+		
+		.p1c
+		{
+			font-size:21px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:lighter;
+			letter-spacing: 0px;
+			margin-left:0px;
+			margin-right:0px;
+			margin-top:20px;
+			line-height: 28px;
+		}		
+		
+		.p1s
+		{
+			font-size:17px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:lighter;
+			letter-spacing: 0px;
+			margin-left:0px;
+			margin-right:0px;
+			margin-top:-2px;
+			line-height: 25px;
+		}
+		
+		.p1l 
+		{
+			font-size:30px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:normal;
+			letter-spacing: 2px;
+			margin-left:0px;
+			margin-right:0px;
+			margin-top:20px;
+			line-height: 32px;
+		}
+		.p2
+		{
+			font-size:14px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:0;
+			letter-spacing: 0px;
+			margin-left:20px;
+			margin-right:40px;
+			margin-top:-1px;
+			line-height:21px;
+
+		}
+
+		.p2E
+		{
+			font-size:14px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:0;
+			letter-spacing: 0px;
+			margin-left:0px;
+			margin-right:0px;
+			margin-top:-1px;
+			line-height:22px;
+
+		}
+
+
+		.footerStyle
+		{
+			font-size:12px;
+			color: #333333;
+			font-family:"Times New Roman", Times , serif;
+			font-weight:0;
+			letter-spacing: 0px;
+			margin-left:20px;
+			margin-right:40px;
+			margin-top:-1px;
+			line-height:24px;
+
+		}
+
+		
+	
+		.footerShell
+		{
+			
+			padding:0px 0%;
+			margin:0 0 0 1%;
+			position: relative;
+			background-color: white;
+			
+			height: 100%;		 	
+		    width: 100%;
+		 	
+			
+			overflow: hidden;
+			max-width: 1200px;
+			margin: 0 auto;
+			
+		}
+
+		.space
+		{
+			position: relative;
+			background-color: white;
+			
+			height: 50px;
+		 	width: 100%;
+		 	
+			min-width: 1024px;
+
+		 	max-width: 1400px;
+			
+			overflow: hidden;
+
+			
+			/*top: 0px;*/
+		}
+
+		
+		.masterShell
+		{
+			position: relative;
+			background-color: white;
+			
+			height: 100%;
+			width: 100%;
+		 	min-width: 1024px;
+
+		 	max-width: 1400px;
+		 	
+		   
+			margin-right: auto; 
+			margin-left: auto;
+			background-color: #f6f5f2;
+			
+		}
+
+		
+
+		.contentGridItem0
+		{
+			display:block;
+			background-color: blue;
+			margin:0 0 0 1%;
+		 	padding:20px 0px;
+		 	text-decoration:none;
+		 	
+		 	text-align:left;
+		 	position:relative;
+		 	
+			background-color: #FFF;
+		    float:left;
+		    width:31%;
+		    height: 100%;
+			overflow: hidden;
+			margin-left:20px;
+
+			
+			
+			
+		}
+
+		.contentGridItemImage
+		{
+			display:block;
+			
+			margin:0 0 0 1%;
+		 	padding:20px 0px;
+		 	
+		 	position:absolute;
+		 	
+			
+		   
+		    width: 100%;
+		    height: 100%;
+			overflow: hidden;
+			
+			margin-right: auto; 
+			margin-left: auto;
+
+			margin-top: auto; 
+			margin-bottom: auto;
+
+		}
+
+		.playIcons
+		{
+			display:block;
+			margin-top:-10px;
+			
+
+			
+		}
+
+		.menuGridItemLeft
+		{
+			display:block;
+			
+			margin:0 0 0 1px;
+		 	padding:0px 0px;
+		 	text-decoration:none;
+		 	
+		 	text-align:left;
+		 	position:relative;
+		 	
+			background-color: #f6f5f2;
+		    float:left;
+		    width:25%;
+		    height: 100%;
+			overflow: hidden;
+			background-image:url('assets/menuKeyline.jpg');
+			background-repeat:no-repeat;
+			background-position:right 55px;
+			margin-left:20px;
+			
+			
+		}
+
+		.menuGridItemCenter
+		{
+			display:block;
+			
+			margin:0 0 0 1px;
+		 	padding:0px 0px;
+		 	text-decoration:none;
+		 	
+		 	text-align:left;
+		 	position:relative;
+		 	
+			background-color: #f6f5f2;
+		    float:left;
+		    width:39%;
+		    height: 100%;
+			overflow: hidden;
+			top: 0px;
+			
+			background-image:url('assets/menuKeyline.jpg');
+			background-repeat:no-repeat;
+			background-position:right 55px;
+			
+			
+		}
+
+		.menuGridItemRight
+		{
+			display:block;
+			
+			margin:0 0 0 1px;
+		 	padding:0px 0px;
+		 	text-decoration:none;
+		 	
+		 	text-align:left;
+		 	position:relative;
+		 	
+			background-color: #f6f5f2;
+		    float:left;
+		    width:30%;
+		    height: 100%;
+			overflow: hidden;
+
+
+			
+			
+			
+		}
+
+		.imgColumn
+		{
+
+		
+		}
+
+		
+
+		.heroLoaded
+		{
+			width: 1400px;
+		 	position:absolute;
+		    left: 50%;
+			margin-left: -700px;
+			/* visibility: hidden; */
+
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+       		filter: alpha(opacity=0); /* for IE */
+		    -khtml-opacity: 0;      /* khtml, old safari */
+		    -moz-opacity: 0;       /* old mozilla, netscape */
+		    opacity: 0;    
+
+			
+		}
+
+		.transparent {
+		    filter: alpha(opacity=0); /* for IE */
+		    -khtml-opacity: 0;      /* khtml, old safari */
+		    -moz-opacity: 0;       /* old mozilla, netscape */
+		    opacity: 0;    
+		       /* good browsers: FF, safari, opera */
+		}
+
+
+		
+
+
+		
+
+

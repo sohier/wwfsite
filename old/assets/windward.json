@@ -1,0 +1,27 @@
+{
+  "Windward" : {
+    "menuAlphas" : [
+      0.2,
+      ".2",
+      ".2",
+      ".2"
+    ],
+    "menuNames" : [
+      {
+        "NewKey" : ""
+      }
+    ],
+    "menuTitle" : [
+      
+    ],
+    "deeplinkData" : [
+      
+    ],
+    "contenSubData" : [
+      
+    ],
+    "dataHeroArray" : [
+      
+    ]
+  }
+}

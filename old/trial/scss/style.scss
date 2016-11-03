@@ -1,0 +1,280 @@
+@import 'bootstrap';
+@import 'colorbox';
+/*typography fixes*/
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
+}
+textarea {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-search .search-query {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  }
+  
+  .lead {
+  font-size: 21px;
+  font-weight: 300;
+}
+strong {
+  font-weight: 400;
+}
+.nav-header {
+  font-weight: 400;
+}
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 10px 20px 10px;
+  margin-left: -20px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #777777;
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+  decorations: none;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 18px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  }
+h2 {
+  font-size: 28px;
+  line-height:32px;
+}
+  /*! rslider config */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+
+  a {
+  color: #404040;
+  text-decoration: none;
+}
+.btn-link {
+  color: #404040;
+}
+
+a:hover,
+a:focus {
+  color: #404040;
+  text-decoration: none;
+  text-shadow: 0 1px 3px #202020;
+  }
+
+
+/*  Navbar */
+  .nav-collapse .nav > li > a,
+  .nav-collapse .dropdown-menu a {
+    padding: 9px 15px;
+    font-weight: 300;
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  
+  .nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:focus,
+  .nav-collapse .dropdown-menu a:hover,
+  .nav-collapse .dropdown-menu a:focus {
+	color:#222222;
+  }
+  
+.navbar.transparent .navbar-inner {
+    background: rgba(255,255,255,0.8);
+} 
+  
+.navbar.transparent .dropdown-menu {
+  background-color: rgba(130, 130, 130, 0.8);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D3D3D3,endColorstr=#D3D3D3);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  text-shadow: none;
+  font-size: 14px;
+}
+.dropdown-menu .divider {
+  width: 80%;
+  height: 1px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+  background-color: #888888;
+} 
+ 
+.unstyled li {
+    display: inline;
+    vertical-align: baseline;
+    padding: 0 16px;
+    position: relative;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #777777;
+  text-decoration: none;
+  text-shadow: 0;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #020202;
+  text-decoration: none;
+  background-color: rgba(160, 160, 160, 0.1);
+  text-shadow:none;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #000000;
+  text-decoration: none;
+  background-color: #979797;
+  background-repeat: repeat-x;
+}
+.dropdown-menu > .active > a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #959595;
+  background-repeat: repeat-x;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus {
+  text-decoration: none;
+  color: #000000;
+  background-color: rgba(180, 180, 180, 0.8);
+  background-repeat: repeat-x;
+}
+
+
+
+/* Span centering */
+[class*="span"].centred {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+/* Image boxes */
+
+.img-box {
+  text-align: center;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 100;
+}
+.img-box img {
+  margin: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.img-box a:hover img {
+  opacity: .7;
+}
+.img-box i {
+  font-size: 52px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: .8;
+  line-height: 1em;
+  text-shadow: 1px 1px 1px black;
+  display: block;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+}
+
+.lead2 {
+  margin-bottom: 17px;
+  margin-top: -3px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+/* Box Shadow
+body {
+  background: url('http://subtlepatterns.com/patterns/wood_pattern.png');
+}
+.container {
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+ */
+
